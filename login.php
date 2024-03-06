@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title>Basic Login PHP PDO by devbanban.com 2021</title>
+    <title>Water Management System: Login</title>
 </head>
 
 <body>
@@ -15,16 +15,16 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-8"> <br>
-                <h4>PHP PDO Basic :: ระบบ Login</h4>
+                <h4>Water Management System</h4>
                 <form action="" method="post">
                     <div class="mb-2">
                         <div class="col-sm-9">
-                            <input type="text" name="username" class="form-control" required minlength="3" placeholder="username">
+                            <input type="text" name="username" class="form-control" required minlength="3" placeholder="Username" value="csd26">
                         </div>
                     </div>
                     <div class="mb-3">
                         <div class="col-sm-9">
-                            <input type="password" name="password" class="form-control" required minlength="3" placeholder="password">
+                            <input type="password" name="password" class="form-control" required minlength="3" placeholder="Password" value="12345678">
                         </div>
                     </div>
                     <div class="d-grid gap-2 col-sm-9 mb-3">
@@ -34,7 +34,7 @@
             </div>
         </div>
     </div>
-    <center>คอร์สออนไลน์ <a href="https://devbanban.com/?cat=250" target="_blank"> คลิก </a> </center>
+    <center>Create By Chinnawat Suwanpasert (Disk)</center>
 </body>
 
 </html>
