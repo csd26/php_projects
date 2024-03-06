@@ -120,6 +120,23 @@ if (empty($_SESSION['id']) && empty($_SESSION['name']) && empty($_SESSION['surna
                     </tbody>
                 </table>
             </div>
+            <div class="col-md-12 mt-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>How to Import Excel Data into database in PHP</h4>
+                    </div>
+                    <div class="card-body">
+
+                        <form action="" method="POST" enctype="multipart/form-data">
+
+                            <input type="file" name="import_file" class="form-control" />
+                            <button class="btn btn-primary mt-3">Import</button>
+                            
+                        </form>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <center>Basic Login PHP PDO by devbanban.com 2021</center>
