@@ -4,26 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            border: 1px solid red;
+        }
+        span{
+            border: 1px solid green;
+        }
+    </style>
 </head>
 <body>
     <h1>หน้าที่ 3</h1>
-    <table border="1">
-        <thead>
+    <table border="1" cellpadding="10" cellspacing="5">
+        <thead bgcolor="pink">
             <th>รหัสสินค้า</th>
             <th>ภาพสินค้า</th>
             <th>ชื่อสินค้า</th>
             <th>ราคา</th>
             <th>ดำเนินการ</th>
         </thead>
-        <tbody>
+        <tbody align="center">
             <tr>
                 <td>P001</td>
-                <td>
+                <td colspan="">
                     <img src="https://www.unileverfoodsolutions.co.th/th/chef-inspiration/simple-tips-for-great-flavour/somtum-green-papaya-salad-recipes/jcr:content/parsys/content-aside-footer/tipsandadvice_953595_63364849/image.img.jpg/1695118780325.jpg" alt="" width="200" height="150">
                 </td>
                 <td>ส้มตำ</td>
                 <td>150.00</td>
-                <td>
+                <td rowspan="3">
                     <a href="#">สั่งซื้อ</a>
                 </td>
             </tr>
@@ -35,9 +43,6 @@
                 </td>
                 <td>สเต็ก</td>
                 <td>200.00</td>
-                <td>
-                    <a href="#">สั่งซื้อ</a>
-                </td>
             </tr>
             <tr>
                 <td>P003</td>
@@ -47,18 +52,21 @@
                 </td>
                 <td>น้ำส้ม</td>
                 <td>60.00</td>
-                <td>
-                    <a href="#">สั่งซื้อ</a>
-                </td>
             </tr>
         </tbody>
         <tfoot>
-            <tr>
-                <td>
-                    ราคารวม: 410.00 บาท
+            <tr align="right">
+                <td colspan="5">
+                    <strong>ราคารวม: 410.00 บาท</strong>
                 </td>
             </tr>
         </tfoot>
     </table>
+    <span>CSD26</span>
+    <span>CSD26</span>
+    <span>CSD26</span>
+    <div>CSD26</div>
+    <div>CSD26</div>
+    <div>CSD26</div>
 </body>
 </html>
